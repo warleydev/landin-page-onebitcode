@@ -1,0 +1,47 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: sans-serif;
+}
+
+header{
+  padding: 10px 25px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.iconrock img{
+  width: 40px;
+}
+
+.obc img{
+  width: 200px;
+}
+
+.links{
+  display: flex;
+  gap: 10px;
+}
+
+.btn-header{
+  background-color: transparent;
+  font-size: 20px;
+  padding: 10px 15px;
+  color: white;
+  border-color: white;
+  border-radius: 10px;
+  transition: 0.8s;
+  cursor: pointer;
+}
+
+.btn-header:hover{
+  background-color: rgba(255, 0, 0, 0.894);
+  border-color:rgba(255, 255, 255));
+
+}
